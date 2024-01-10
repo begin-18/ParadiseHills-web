@@ -17,6 +17,8 @@ const Book = () => {
   const [many, setmany] = useState("");
 
 
+
+
   const inputHandler = (e) => {
     const { name, value } = e.target;
   
@@ -57,7 +59,10 @@ const Book = () => {
 
   const submitHandler = async (e) => {
     e.preventDefault();
-  
+    if (!first || !last || !email || !mobile || !date || !adults || !kids || !tables || !many) {
+      alert("PLEASE COMPLETE THE FORM");
+      return;
+    }
     try {
       const docRef = await addDoc(collection(db, "users"), {
         first: first,
@@ -73,6 +78,9 @@ const Book = () => {
       });
   
       console.log("Document written with ID: ", docRef.id);
+      alert("YOU SUCCESSFULLY COMPLETED THE BOOKING");
+      window.location.href = "#home";
+      window.location.reload();
     } catch (error) {
       console.error("Error adding document: ", error);
     }

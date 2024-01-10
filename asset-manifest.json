@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ParadiseHills-web/static/css/main.042c754c.css",
+    "main.js": "/ParadiseHills-web/static/js/main.d7b2f46e.js",
+    "static/js/787.e990d156.chunk.js": "/ParadiseHills-web/static/js/787.e990d156.chunk.js",
+    "index.html": "/ParadiseHills-web/index.html",
+    "main.042c754c.css.map": "/ParadiseHills-web/static/css/main.042c754c.css.map",
+    "main.d7b2f46e.js.map": "/ParadiseHills-web/static/js/main.d7b2f46e.js.map",
+    "787.e990d156.chunk.js.map": "/ParadiseHills-web/static/js/787.e990d156.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.042c754c.css",
+    "static/js/main.d7b2f46e.js"
+  ]
+}

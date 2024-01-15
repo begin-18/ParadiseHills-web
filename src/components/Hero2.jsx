@@ -15,7 +15,7 @@ const Hero2 = () => {
                 <div>
                     <div className='flex flex-col xl:flex-row mb-10'>
                         <div className='duration-200 hover:scale-105 flex justify-center items-center'>
-                            <img src="images/car-image.webp" alt="" className='hover:scale-100 duration-300 h-[20vh] sm:h-[30vh] lg:h-[40vh] w-[60vw] object-cover shadow-2xl rounded-lg'/>
+                            <img src="images/car-image.webp" alt="" className='hover:scale-100 duration-300 h-[20vh] sm:h-[30vh] lg:h-[40vh] w-[60vw] md:w-[40rem] object-cover shadow-2xl rounded-lg'/>
                         </div>
                         <div className='flex flex-row xl:flex-col justify-center items-center mt-5 px-5'>
                                 <div>
@@ -29,7 +29,7 @@ const Hero2 = () => {
                     <hr />
                     <div className='flex my-10 flex-col xl:flex-row'>
                             <div className='duration-200 hover:scale-105 flex justify-center items-center'>
-                                <img src="images/buluang.png" alt="" className='hover:scale-100 duration-300 h-[20vh] sm:h-[30vh] lg:h-[40vh] w-[60vw] object-cover shadow-2xl rounded-lg'/>
+                                <img src="images/buluang.png" alt="" className='hover:scale-100 duration-300 h-[20vh] sm:h-[30vh] lg:h-[40vh] w-[60vw] md:w-[40rem]   object-cover shadow-2xl rounded-lg'/>
                             </div>
                             <div className='flex flex-row xl:flex-col items-center px-5 mt-5'>
                                 <div>
@@ -45,7 +45,7 @@ const Hero2 = () => {
                     <hr />
                     <div className='flex my-10 flex-col xl:flex-row'>
                         <div className='duration-200 hover:scale-105 flex justify-center items-center'>
-                            <img src="images/entrance.png" alt="" className='hover:scale-100 duration-300 h-[20vh] sm:h-[30vh] lg:h-[40vh] w-[60vw] xl:w-[80vw] object-cover shadow-2xl rounded-lg'/>
+                            <img src="images/entrance.png" alt="" className='hover:scale-100 duration-300 h-[20vh] sm:h-[30vh] lg:h-[40vh] w-[60vw] md:w-[40rem] object-cover shadow-2xl rounded-lg'/>
                         </div>
                         <div className='flex flex-row xl:flex-col items-center px-5 mt-10 gap-2'>
                                 <div>

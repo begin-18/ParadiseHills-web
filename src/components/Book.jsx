@@ -64,7 +64,7 @@ const Book = () => {
       return;
     }
     try {
-      const docRef = await addDoc(collection(db, "users"), {
+      const docRef = await addDoc(collection(db, "bookings"), {
         first: first,
         last: last,
         email: email,
